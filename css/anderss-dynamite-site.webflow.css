@@ -1534,6 +1534,7 @@ ul {
 .heading-4.wd1 {
   text-align: center;
   padding-left: 0;
+  font-size: 54px;
 }
 
 .container-12 {
@@ -1729,9 +1730,7 @@ ul {
 
 .text-block-11 {
   text-align: right;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 10px 0 0;
   line-height: 20px;
 }
 
@@ -1746,9 +1745,7 @@ ul {
 
 .text-block-13 {
   text-align: left;
-  padding-bottom: 0;
-  padding-left: 40px;
-  padding-right: 0;
+  padding: 10px 0 0 40px;
   line-height: 20px;
 }
 
