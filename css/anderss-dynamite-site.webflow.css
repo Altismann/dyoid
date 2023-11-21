@@ -1227,7 +1227,7 @@ ul {
 }
 
 .heading-3.s {
-  text-align: right;
+  text-align: center;
   background-color: #fff;
   margin-bottom: 36px;
   margin-right: 0;
@@ -1526,7 +1526,7 @@ ul {
 
 .heading-4.wd3 {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 59px;
   padding-left: 0;
 }
 
@@ -1777,7 +1777,7 @@ ul {
 }
 
 .button-2 {
-  width: 500px;
+  width: 900px;
   height: 60px;
   color: #000;
   text-align: center;
@@ -1789,6 +1789,7 @@ ul {
   justify-content: center;
   align-items: center;
   margin-top: 0;
+  padding-top: 9px;
   padding-left: 0;
   padding-right: 0;
   font-size: 14px;
@@ -1805,7 +1806,7 @@ ul {
 }
 
 .image-7 {
-  opacity: .61;
+  opacity: 1;
   mix-blend-mode: normal;
 }
 
@@ -1813,19 +1814,30 @@ ul {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-top: 87px;
+  padding-top: 91px;
   display: flex;
 }
 
 @media screen and (min-width: 1440px) {
   .pricing-overview {
-    margin-top: 170px;
-    padding-top: 0;
+    opacity: 1;
+    mix-blend-mode: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 192px;
+    padding-bottom: 184px;
   }
 
   .pricing-grid {
     padding-top: 0;
     padding-left: 0;
+  }
+
+  .pricing-card-three {
+    box-shadow: none;
+    outline-offset: 0px;
+    mix-blend-mode: normal;
+    outline: 3px solid #5656e7;
   }
 
   .navbar-no-shadow {
@@ -2775,6 +2787,10 @@ ul {
     margin-top: 100px;
     margin-bottom: 20px;
     font-size: 18px;
+  }
+
+  .heading-4.wd3, .heading-4.wd2 {
+    margin-bottom: 0;
   }
 
   .image-5, .section {
