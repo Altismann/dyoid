@@ -1136,12 +1136,9 @@ ul {
   -webkit-text-fill-color: inherit;
   mix-blend-mode: normal;
   background-color: #0a0a0a;
-  background-image: linear-gradient(rgba(0, 0, 0, .98), rgba(0, 0, 0, .98)), url('../images/Cr4DoNZ28tiF5wJu.jpg1-2_1.png');
-  background-position: 0 0, 0 0;
-  background-size: auto, cover;
   background-clip: border-box;
   border-bottom: 1px solid #e4ebf3;
-  padding: 220px 30px;
+  padding: 239px 30px 136px;
   position: relative;
 }
 
@@ -1164,7 +1161,7 @@ ul {
                  "."
                  / 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  margin-top: 40px;
+  margin-top: 63px;
   display: grid;
 }
 
@@ -1855,14 +1852,14 @@ ul {
 
 .heading-7 {
   text-align: center;
-  letter-spacing: 30px;
+  letter-spacing: 10px;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 134px;
-  padding-bottom: 62px;
+  padding-top: 142px;
+  padding-bottom: 20px;
   font-family: Montserrat, sans-serif;
-  font-size: 58px;
+  font-size: 38px;
   font-weight: 700;
 }
 
@@ -1875,12 +1872,13 @@ ul {
 }
 
 .heading-8 {
-  color: #858585;
+  color: #eeecec;
   text-align: center;
   letter-spacing: 10px;
   text-transform: uppercase;
+  word-break: break-all;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-family: Montserrat, sans-serif;
   font-size: 48px;
 }
@@ -1907,7 +1905,7 @@ ul {
 .container-15 {
   justify-content: center;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 97px;
   padding-bottom: 20px;
   display: flex;
 }
@@ -1923,12 +1921,14 @@ ul {
 }
 
 .button-4 {
-  text-transform: uppercase;
-  background-color: #3d3d3d;
-  margin-top: 13px;
-  font-family: Montserrat, sans-serif;
+  letter-spacing: 5px;
+  text-transform: lowercase;
+  background-color: #3494e9;
+  border-radius: 20px;
+  margin-top: 23px;
+  font-family: Varela, sans-serif;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .path-bhhdw {
@@ -1948,7 +1948,60 @@ ul {
 }
 
 .container-16 {
-  margin-top: 50px;
+  margin-top: 55px;
+}
+
+.path-ntjdli {
+  color: #dbdbdb;
+}
+
+.ikonik-n8wbm {
+  color: #fff;
+}
+
+.path-4u86t {
+  color: #dbdbdb;
+}
+
+.ikonik-aihan {
+  color: #858585;
+}
+
+.path-9cy41h, .path-42zrtj {
+  color: #fff;
+}
+
+.path-z05tt {
+  color: #858585;
+}
+
+.path-l3uq2 {
+  color: #fff;
+}
+
+.ikonik-y2wsw {
+  color: #dbdbdb;
+}
+
+.paragraph-10 {
+  color: #000;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 75px;
+  padding-left: 220px;
+  padding-right: 220px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+}
+
+.paragraph-11 {
+  color: #a7a7a7;
+  letter-spacing: 3px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  line-height: 18px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -1984,7 +2037,10 @@ ul {
   }
 
   .team-circles {
-    padding-bottom: 248px;
+    background-image: linear-gradient(rgba(0, 0, 0, .96), rgba(0, 0, 0, .96)), url('../images/Cr4DoNZ28tiF5wJu.jpg1-2.png');
+    background-position: 0 0, 0 0;
+    background-size: auto, cover;
+    padding-bottom: 173px;
   }
 
   .centered-heading-2 {
@@ -2121,11 +2177,26 @@ ul {
   }
 
   .heading-7 {
-    padding-bottom: 65px;
+    padding-top: 139px;
+    padding-bottom: 20px;
   }
 
   .button-4 {
     margin-top: 20px;
+  }
+
+  .paragraph-10 {
+    color: #000;
+    letter-spacing: 3px;
+    margin-bottom: 54px;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+  }
+
+  .section-5 {
+    text-align: center;
   }
 }
 
@@ -2413,6 +2484,11 @@ ul {
   .container-13 {
     justify-content: center;
     padding-right: 0;
+  }
+
+  .paragraph-10 {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 
@@ -2741,6 +2817,11 @@ ul {
     justify-content: center;
     padding-right: 0;
   }
+
+  .paragraph-10 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2862,6 +2943,7 @@ ul {
 
   .team-grid {
     grid-template-columns: 1fr;
+    margin-bottom: 87px;
   }
 
   .team-card {
@@ -3022,7 +3104,7 @@ ul {
   }
 
   .heading-7 {
-    word-break: normal;
+    word-break: break-all;
     padding-top: 21px;
     padding-left: 40px;
     padding-right: 40px;
@@ -3044,6 +3126,11 @@ ul {
 
   .button-4 {
     margin-top: 20px;
+  }
+
+  .paragraph-10 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
