@@ -364,8 +364,8 @@ ul {
 .pricing-overview {
   border-bottom: 1px #e4ebf3;
   margin-top: 0;
-  margin-bottom: 126px;
-  padding: 0 30px 64px;
+  margin-bottom: 0;
+  padding: 0 30px 100px;
   position: relative;
 }
 
@@ -422,7 +422,7 @@ ul {
   justify-content: flex-start;
   align-items: center;
   display: flex;
-  box-shadow: -8px 2px 15px -16px rgba(0, 0, 0, .61);
+  box-shadow: -15px 8px 15px -11px rgba(81, 142, 240, .61);
 }
 
 .pricing-image {
@@ -433,7 +433,9 @@ ul {
 }
 
 .pricing-card-text {
+  margin-top: 40px;
   margin-bottom: 20px;
+  font-family: Poppins, sans-serif;
 }
 
 .text-link-arrow-2 {
@@ -1182,7 +1184,7 @@ ul {
 }
 
 .team-member-name {
-  color: #858585;
+  color: #cfcfcf;
   margin-bottom: 0;
   font-family: Oswald, sans-serif;
   font-size: 28px;
@@ -1861,11 +1863,11 @@ ul {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 142px;
+  padding-top: 107px;
   padding-bottom: 20px;
   font-family: Montserrat, sans-serif;
   font-size: 54px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .paragraph-8 {
@@ -1930,16 +1932,17 @@ ul {
 }
 
 .button-4 {
+  color: #000;
   letter-spacing: 5px;
-  text-transform: lowercase;
+  text-transform: uppercase;
   background-color: #3494e9;
   border-radius: 0;
   margin-top: 23px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: Varela, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
 }
 
 .path-bhhdw {
@@ -1963,18 +1966,14 @@ ul {
 }
 
 .path-ntjdli {
-  color: #dbdbdb;
+  color: #858585;
 }
 
 .ikonik-n8wbm {
   color: #fff;
 }
 
-.path-4u86t {
-  color: #dbdbdb;
-}
-
-.ikonik-aihan {
+.path-4u86t, .ikonik-aihan {
   color: #858585;
 }
 
@@ -1982,12 +1981,8 @@ ul {
   color: #fff;
 }
 
-.path-z05tt {
+.path-z05tt, .path-l3uq2 {
   color: #858585;
-}
-
-.path-l3uq2 {
-  color: #fff;
 }
 
 .ikonik-y2wsw {
@@ -2268,11 +2263,40 @@ ul {
 }
 
 .heading-9 {
+  color: #000;
   margin-top: 10px;
 }
 
 .heading-10, .heading-11 {
   color: #838282;
+}
+
+.path {
+  color: #333;
+}
+
+.path-pletr {
+  color: #fff;
+}
+
+.path-hz5jw {
+  color: #0ff;
+}
+
+.path-p5wr9 {
+  color: #000;
+}
+
+.ikonik-h7cgz {
+  overflow: visible;
+}
+
+.path-ezf4y {
+  color: #fff;
+}
+
+.path-jh64s, .path-6g4lxl {
+  color: #000;
 }
 
 @media screen and (min-width: 1440px) {
@@ -2294,7 +2318,7 @@ ul {
     outline-offset: 0px;
     mix-blend-mode: normal;
     outline: 3px #c4c4c4;
-    box-shadow: 11px 9px 10px rgba(49, 49, 49, .2);
+    box-shadow: -11px 8px 10px rgba(46, 114, 197, .2);
   }
 
   .navbar-no-shadow {
@@ -3612,7 +3636,16 @@ ul {
   }
 }
 
-#w-node-_26b55dcf-7543-af25-7c8c-049388251551-8c86907d, #w-node-_26b55dcf-7543-af25-7c8c-04938825155b-8c86907d, #w-node-_26b55dcf-7543-af25-7c8c-049388251565-8c86907d, #w-node-_60f9343d-4428-a87f-d6b8-2ac519f40835-8c86907d, #w-node-_60f9343d-4428-a87f-d6b8-2ac519f4083d-8c86907d, #w-node-_60f9343d-4428-a87f-d6b8-2ac519f40845-8c86907d, #w-node-_744a1cb4-85d4-9a4c-108b-dfea610204d9-610204d6, #w-node-_744a1cb4-85d4-9a4c-108b-dfea610204e1-610204d6, #w-node-_744a1cb4-85d4-9a4c-108b-dfea610204e9-610204d6 {
+#w-node-_26b55dcf-7543-af25-7c8c-049388251551-8c86907d {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_31ab8a33-6efb-3555-d381-8d254d2c9057-8c86907d, #w-node-_26b55dcf-7543-af25-7c8c-049388251565-8c86907d {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  justify-self: auto;
+}
+
+#w-node-_60f9343d-4428-a87f-d6b8-2ac519f40835-8c86907d, #w-node-_60f9343d-4428-a87f-d6b8-2ac519f4083d-8c86907d, #w-node-_60f9343d-4428-a87f-d6b8-2ac519f40845-8c86907d, #w-node-_744a1cb4-85d4-9a4c-108b-dfea610204d9-610204d6, #w-node-_744a1cb4-85d4-9a4c-108b-dfea610204e1-610204d6, #w-node-_744a1cb4-85d4-9a4c-108b-dfea610204e9-610204d6 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
