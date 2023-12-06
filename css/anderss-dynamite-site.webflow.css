@@ -641,6 +641,7 @@ ul {
 }
 
 .heading-2 {
+  color: #838282;
   text-transform: lowercase;
 }
 
@@ -1346,7 +1347,7 @@ ul {
   text-transform: none;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 220px;
+  padding-top: 200px;
   padding-bottom: 220px;
   font-size: 12px;
   font-weight: 700;
@@ -1854,6 +1855,7 @@ ul {
 }
 
 .heading-7 {
+  color: #ebebeb;
   text-align: center;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -1862,8 +1864,8 @@ ul {
   padding-top: 142px;
   padding-bottom: 20px;
   font-family: Montserrat, sans-serif;
-  font-size: 38px;
-  font-weight: 700;
+  font-size: 54px;
+  font-weight: 900;
 }
 
 .paragraph-8 {
@@ -1931,8 +1933,10 @@ ul {
   letter-spacing: 5px;
   text-transform: lowercase;
   background-color: #3494e9;
-  border-radius: 20px;
+  border-radius: 0;
   margin-top: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: Varela, sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -1991,15 +1995,15 @@ ul {
 }
 
 .paragraph-10 {
-  color: #c4c4c4;
+  color: #534f4f;
   text-align: center;
   letter-spacing: 3px;
   margin-bottom: 75px;
   padding-left: 220px;
   padding-right: 220px;
   font-family: Montserrat, sans-serif;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .paragraph-11 {
@@ -2008,6 +2012,7 @@ ul {
   padding-left: 10%;
   padding-right: 10%;
   font-family: Montserrat, sans-serif;
+  font-size: 12px;
   font-weight: 400;
   line-height: 18px;
 }
@@ -2266,6 +2271,10 @@ ul {
   margin-top: 10px;
 }
 
+.heading-10, .heading-11 {
+  color: #838282;
+}
+
 @media screen and (min-width: 1440px) {
   .pricing-overview {
     opacity: 1;
@@ -2368,7 +2377,9 @@ ul {
   }
 
   .paragraph-6 {
-    margin-top: 10px;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .body-3 {
@@ -2402,7 +2413,9 @@ ul {
 
   .section {
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
   }
 
@@ -3422,10 +3435,9 @@ ul {
   }
 
   .paragraph-6 {
-    margin-top: 20px;
-    margin-bottom: 133px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 40px;
     font-size: 10px;
     line-height: 20px;
   }
@@ -3462,8 +3474,15 @@ ul {
     margin-bottom: 0;
   }
 
-  .image-5, .section {
+  .image-5 {
     margin-top: 40px;
+  }
+
+  .section {
+    border-top: 1px solid #d3d3d3;
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .image-6 {
