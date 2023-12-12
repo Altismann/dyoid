@@ -267,7 +267,7 @@ ul {
 }
 
 .paragraph-5 {
-  color: #000;
+  color: #666;
   text-align: center;
   letter-spacing: 4px;
   margin: 40px 0 0;
@@ -344,6 +344,20 @@ ul {
   font-size: 54px;
 }
 
+.heading-4.kt1 {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+}
+
+.heading-4.wdny {
+  color: #cfcfcf;
+  letter-spacing: 4px;
+  margin-top: 40px;
+  font-family: Poppins, sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+}
+
 .section {
   justify-content: center;
   margin-top: 0;
@@ -405,6 +419,7 @@ ul {
 }
 
 .body-4 {
+  color: #3d3d3d;
   line-height: 10px;
 }
 
