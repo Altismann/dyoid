@@ -33,6 +33,13 @@
   }
 }
 
+body {
+  color: #333;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 a {
   text-decoration: none;
 }
@@ -130,12 +137,12 @@ ul {
 
 .button-primary-4:hover {
   color: #c8e3ee;
-  background-color: rgba(160, 160, 160, .11);
+  background-color: rgba(241, 241, 241, .11);
 }
 
 .button-primary-4:active {
   color: #c8e3ee;
-  background-color: #a3b3db;
+  background-color: rgba(0, 0, 0, .21);
 }
 
 .button-primary-4:visited {
@@ -276,8 +283,8 @@ ul {
   margin: 10px 0 0;
   padding-bottom: 0;
   font-family: Poppins, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 25px;
 }
 
@@ -607,7 +614,7 @@ ul {
   height: auto;
   max-height: none;
   max-width: none;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #363636;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('../images/wallpaperflare.com_wallpaper.png');
   background-position: 0 0, 100%;
   background-repeat: repeat, repeat;
@@ -834,16 +841,22 @@ ul {
 }
 
 .nav-dropdown-list-5.shadow-three.mobile-shadow-hide {
-  background-color: #c9c9c9;
+  background-color: #fff;
+  border: 1px solid #000;
 }
 
 .nav-dropdown-link-5 {
-  color: #bebebe;
+  color: #131313;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: Poppins, sans-serif;
   font-size: 14px;
   font-weight: 700;
+}
+
+.nav-dropdown-link-5:hover {
+  color: #afdcee;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .nav-dropdown-link-5:focus-visible {
@@ -872,9 +885,9 @@ ul {
 .text-block-15 {
   color: #000;
   text-transform: uppercase;
-  margin-left: -5px;
-  font-size: 12px;
-  font-weight: 600;
+  margin-left: 0;
+  font-size: 16px;
+  font-weight: 800;
 }
 
 .text-span-2 {
@@ -999,7 +1012,8 @@ ul {
 }
 
 .path-t2qv8 {
-  color: #aaa;
+  color: #000;
+  font-weight: 400;
 }
 
 .ikonik-a1b55 {
@@ -1436,10 +1450,13 @@ ul {
 
 .margin-bottom-24px {
   color: #fff;
+  letter-spacing: 2px;
   text-transform: lowercase;
   margin-bottom: 24px;
   font-family: Poppins, sans-serif;
+  font-size: 16px;
   font-weight: 400;
+  line-height: 25px;
 }
 
 .button-primary-5 {
@@ -1899,7 +1916,9 @@ ul {
     width: auto;
     height: auto;
     background-color: #fff;
-    background-image: none;
+    background-image: url('../images/wallpaperflare.com_wallpaper.png');
+    background-position: 0 0;
+    background-size: 1920px;
     flex-direction: column;
     justify-content: center;
     margin-top: 0;
@@ -1935,8 +1954,10 @@ ul {
   .nav-menu-3 {
     background-color: #fff;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
     padding-left: 0;
     display: flex;
   }
@@ -2122,11 +2143,16 @@ ul {
   }
 
   .paragraph-5 {
+    color: #000;
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .text-span {
+    color: #000;
   }
 
   .paragraph-6 {
@@ -2150,6 +2176,10 @@ ul {
   .heading-4.wd1 {
     text-align: center;
     padding-left: 0;
+  }
+
+  .heading-4.kt1 {
+    color: #000;
   }
 
   .column-5 {
@@ -2185,7 +2215,9 @@ ul {
     width: auto;
     height: 600px;
     background-color: #fff;
-    background-image: none;
+    background-image: url('../images/wallpaperflare.com_wallpaper.png');
+    background-position: 0 0;
+    background-size: 1920px;
     padding: 60px 15px;
   }
 
@@ -2212,7 +2244,9 @@ ul {
 
   .nav-menu-3 {
     flex-direction: column;
-    padding-bottom: 30px;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 0;
   }
 
@@ -2333,8 +2367,11 @@ ul {
   }
 
   .container-21 {
-    padding-left: 118px;
-    padding-right: 69px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
   }
 
   .pricing-items {
@@ -2360,8 +2397,19 @@ ul {
 
   .hero-wrapper {
     margin-bottom: 0;
-    padding-left: 0;
-    padding-right: 220px;
+    padding-left: 51px;
+    padding-right: 20px;
+  }
+
+  .hero-split {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .heading-13 {
+    margin-right: 26px;
+    font-weight: 500;
+    line-height: 30px;
   }
 }
 
@@ -2448,17 +2496,23 @@ ul {
   }
 
   .paragraph-5 {
-    color: #fff;
+    color: #000;
+    text-align: center;
     letter-spacing: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 10px auto 100px;
     padding-bottom: 0;
     font-family: Poppins, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
+    display: block;
   }
 
   .text-span {
-    color: #fff;
+    color: #000;
+    word-break: break-all;
   }
 
   .paragraph-6 {
@@ -2487,7 +2541,8 @@ ul {
   }
 
   .heading-4.kt1 {
-    color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     line-height: 30px;
   }
 
@@ -2568,7 +2623,9 @@ ul {
     width: auto;
     height: 600px;
     background-color: #fff;
-    background-image: none;
+    background-image: url('../images/wallpaperflare.com_wallpaper.png');
+    background-position: 0 0;
+    background-size: cover;
   }
 
   .hero-stack._2 {
@@ -2596,7 +2653,21 @@ ul {
   }
 
   .nav-menu-3 {
+    word-break: normal;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 140px;
+  }
+
+  .mobile-margin-top-13 {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
   }
 
   .icon-2 {
@@ -2633,8 +2704,11 @@ ul {
 
   .section-7 {
     color: #fff;
-    background-image: linear-gradient(rgba(255, 184, 184, .68), rgba(255, 184, 184, .68));
-    padding: 140px 20px;
+    background-image: linear-gradient(rgba(255, 184, 184, .75), rgba(255, 184, 184, .75)), url('../images/xbox-controlle4.png');
+    background-position: 0 0, 50%;
+    background-repeat: repeat, repeat;
+    background-size: auto, 960px;
+    padding: 156px 20px 140px;
   }
 
   .container-20 {
@@ -2674,9 +2748,12 @@ ul {
   }
 
   .container-21 {
+    color: #000;
+    text-align: center;
     padding-left: 40px;
     padding-right: 40px;
     line-height: 30px;
+    display: block;
   }
 
   .container-23 {
@@ -2706,7 +2783,9 @@ ul {
 
   .hero-heading-left {
     height: 400px;
-    background-image: linear-gradient(rgba(114, 179, 185, .5), rgba(114, 179, 185, .5));
+    background-color: rgba(255, 255, 255, 0);
+    background-image: linear-gradient(to bottom, null, null), url('../images/switch_pro_controller.png');
+    background-position: 0 0, 50%;
     justify-content: center;
     align-items: center;
     padding-top: 0;
@@ -2716,18 +2795,35 @@ ul {
   .hero-wrapper {
     text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 0;
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+    display: block;
   }
 
   .hero-split {
-    justify-content: center;
-    align-items: center;
-    padding-left: 13px;
-    padding-right: 49px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .margin-bottom-24px {
+    letter-spacing: 1px;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: #000;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .heading-13 {
+    text-align: left;
+    font-weight: 600;
+    line-height: 25px;
   }
 }
 
