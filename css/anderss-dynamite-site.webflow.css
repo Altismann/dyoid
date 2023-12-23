@@ -1058,6 +1058,7 @@ ul {
   background-image: url('../images/wallpaperflare.com_wallpaper.png');
   background-position: 0 0;
   background-size: auto;
+  border-radius: 0;
   justify-content: center;
   align-items: center;
   padding-top: 107px;
@@ -1088,6 +1089,7 @@ ul {
   grid-row-gap: 16px;
   word-break: normal;
   border: 1px solid #fff;
+  border-radius: 20px;
   flex-flow: row;
   flex: 0 auto;
   grid-template-rows: auto auto;
@@ -1254,7 +1256,7 @@ ul {
 }
 
 .path-ouv8n {
-  color: #fff;
+  color: #eee;
 }
 
 .list-item-4 {
@@ -1287,6 +1289,7 @@ ul {
 
 .heading-11 {
   text-transform: uppercase;
+  border: 1px #000;
   padding-left: 220px;
   font-family: Poppins, sans-serif;
 }
@@ -1575,7 +1578,8 @@ ul {
     letter-spacing: 3px;
     margin: 10px auto 0;
     font-family: Montserrat, sans-serif;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     line-height: 20px;
   }
 
@@ -1751,6 +1755,10 @@ ul {
     justify-content: center;
   }
 
+  .path-ouv8n {
+    color: #e7e7e7;
+  }
+
   .section-8 {
     background-image: none;
   }
@@ -1841,6 +1849,8 @@ ul {
   }
 
   .team-circles {
+    background-image: linear-gradient(to bottom, null, null), url('../images/wallpaper-1.png');
+    background-position: 0 0, 0%;
     padding-top: 164px;
     padding-bottom: 161px;
   }
@@ -1869,6 +1879,7 @@ ul {
   }
 
   .paragraph-5 {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     margin-left: auto;
     margin-right: auto;
     font-family: Poppins, sans-serif;
@@ -2058,6 +2069,10 @@ ul {
     background-color: #a6b1bf;
   }
 
+  .path-ouv8n {
+    color: #e4e4e4;
+  }
+
   .heading-11 {
     padding-left: 100px;
   }
@@ -2119,6 +2134,9 @@ ul {
   }
 
   .team-circles {
+    opacity: 1;
+    background-color: #525252;
+    background-image: none;
     padding: 60px 15px;
   }
 
@@ -2143,7 +2161,7 @@ ul {
   }
 
   .paragraph-5 {
-    color: #000;
+    color: #fff;
     margin-left: auto;
     margin-right: auto;
     font-family: Poppins, sans-serif;
@@ -2152,7 +2170,7 @@ ul {
   }
 
   .text-span {
-    color: #000;
+    color: #fff;
   }
 
   .paragraph-6 {
@@ -2179,7 +2197,7 @@ ul {
   }
 
   .heading-4.kt1 {
-    color: #000;
+    color: #fff;
   }
 
   .column-5 {
@@ -2435,6 +2453,11 @@ ul {
     padding-top: 0;
   }
 
+  .pricing-card-text {
+    color: #000;
+    font-size: 14px;
+  }
+
   .button-primary-4 {
     color: #c8e3ee;
     text-align: center;
@@ -2456,7 +2479,6 @@ ul {
 
   .team-circles {
     background-color: #757575;
-    background-image: none;
   }
 
   .team-grid {
@@ -2496,7 +2518,7 @@ ul {
   }
 
   .paragraph-5 {
-    color: #000;
+    color: #fff;
     text-align: center;
     letter-spacing: 2px;
     flex-direction: column;
@@ -2511,7 +2533,7 @@ ul {
   }
 
   .text-span {
-    color: #000;
+    color: #fff;
     word-break: break-all;
   }
 
@@ -2541,7 +2563,7 @@ ul {
   }
 
   .heading-4.kt1 {
-    color: #000;
+    color: #fff;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     line-height: 30px;
   }
@@ -2590,10 +2612,9 @@ ul {
   }
 
   .heading-7 {
-    letter-spacing: 15px;
     word-break: break-all;
     padding: 60px 40px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .heading-8 {
@@ -2614,9 +2635,13 @@ ul {
   }
 
   .paragraph-10 {
+    color: #000;
     text-align: center;
+    letter-spacing: 2px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 14px;
+    font-weight: 500;
   }
 
   .hero-stack {
@@ -2718,6 +2743,10 @@ ul {
   .clients-image {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .navbar-no-shadow {
+    background-size: 1920px;
   }
 
   .container-regular {
