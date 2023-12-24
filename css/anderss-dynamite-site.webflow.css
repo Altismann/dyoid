@@ -284,7 +284,7 @@ ul {
   padding-bottom: 0;
   font-family: Poppins, sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 25px;
 }
 
@@ -1519,6 +1519,121 @@ ul {
   color: #969696;
 }
 
+.section-9 {
+  height: 900px;
+}
+
+.team-slider {
+  background-color: #fff;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 80px 30px;
+  position: relative;
+}
+
+.team-slider.byd {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.team-slider.sw {
+  padding-top: 140px;
+  padding-bottom: 220px;
+}
+
+.container-27 {
+  width: 100%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered-heading {
+  text-align: center;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin-bottom: 75px;
+  font-family: Montserrat, sans-serif;
+  line-height: 45px;
+}
+
+.centered-subheading {
+  max-width: 530px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-slider-wrapper {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 50px;
+}
+
+.team-slide-wrapper {
+  width: 30%;
+  margin-right: 5%;
+}
+
+.team-block {
+  background-color: #fff;
+  padding-bottom: 24px;
+}
+
+.team-member-image-two {
+  opacity: .84;
+  margin-bottom: 18px;
+}
+
+.team-block-info {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+}
+
+.team-member-name-two {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.team-member-text {
+  margin-bottom: 20px;
+}
+
+.text-link-arrow-2 {
+  color: #1a1b1f;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+}
+
+.arrow-embed-2 {
+  margin-left: 2px;
+  display: flex;
+}
+
+.team-slider-arrow {
+  opacity: 1;
+  display: none;
+}
+
+.team-slider-nav {
+  opacity: 0;
+  color: #fff;
+  margin-top: 24px;
+  font-size: 10px;
+  position: static;
+  bottom: -60px;
+}
+
+.mask {
+  opacity: 1;
+}
+
 @media screen and (min-width: 1440px) {
   .pricing-overview {
     opacity: 1;
@@ -1578,7 +1693,7 @@ ul {
     letter-spacing: 3px;
     margin: 10px auto 0;
     font-family: Montserrat, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
   }
@@ -1624,6 +1739,7 @@ ul {
     justify-content: center;
     align-items: center;
     font-family: Poppins, sans-serif;
+    font-size: 24px;
     font-weight: 800;
     display: flex;
   }
@@ -1879,18 +1995,21 @@ ul {
   }
 
   .paragraph-5 {
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     margin-left: auto;
     margin-right: auto;
     font-family: Poppins, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
   }
 
   .paragraph-6 {
     margin-top: 0;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .heading-4.kt1 {
+    font-size: 20px;
   }
 
   .column-5 {
@@ -2116,6 +2235,19 @@ ul {
     margin-bottom: 40px;
     padding-right: 193px;
   }
+
+  .container-27 {
+    max-width: 728px;
+  }
+
+  .team-slide-wrapper {
+    width: 47%;
+    margin-right: 6%;
+  }
+
+  .team-slider-nav {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2166,7 +2298,7 @@ ul {
     margin-right: auto;
     font-family: Poppins, sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .text-span {
@@ -2198,6 +2330,7 @@ ul {
 
   .heading-4.kt1 {
     color: #fff;
+    font-size: 24px;
   }
 
   .column-5 {
@@ -2429,6 +2562,10 @@ ul {
     font-weight: 500;
     line-height: 30px;
   }
+
+  .team-slider {
+    padding: 60px 15px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2528,7 +2665,7 @@ ul {
     padding-bottom: 0;
     font-family: Poppins, sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     display: block;
   }
 
@@ -2844,6 +2981,7 @@ ul {
     letter-spacing: 1px;
     -webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: #000;
+    background-color: rgba(255, 255, 255, 0);
     padding-left: 0;
     font-size: 14px;
     line-height: 20px;
@@ -2853,6 +2991,19 @@ ul {
     text-align: left;
     font-weight: 600;
     line-height: 25px;
+  }
+
+  .container-27 {
+    max-width: none;
+  }
+
+  .centered-heading {
+    margin-bottom: 24px;
+  }
+
+  .team-slide-wrapper {
+    width: 100%;
+    margin-right: 0%;
   }
 }
 
