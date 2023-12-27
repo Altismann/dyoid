@@ -1682,6 +1682,10 @@ ul {
     padding-bottom: 232px;
   }
 
+  .team-member-name {
+    margin-bottom: 33px;
+  }
+
   .team-member-position {
     color: #f7f7f7;
   }
@@ -1890,7 +1894,7 @@ ul {
   }
 
   .path-ouv8n {
-    color: #e7e7e7;
+    color: #fff;
   }
 
   .heading-11 {
