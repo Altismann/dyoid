@@ -1584,20 +1584,29 @@ ul {
 
 .team-member-image-two {
   opacity: .84;
-  margin-bottom: 18px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .team-block-info {
   flex-direction: column;
-  align-items: flex-start;
-  padding-left: 24px;
-  padding-right: 24px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
   display: flex;
 }
 
 .team-member-name-two {
-  margin-bottom: 12px;
-  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  display: block;
 }
 
 .team-member-text {
@@ -1606,8 +1615,10 @@ ul {
 
 .text-link-arrow-2 {
   color: #1a1b1f;
+  border: 1px solid #000;
   justify-content: flex-start;
   align-items: center;
+  padding: 10px 20px;
   font-size: 14px;
   line-height: 20px;
   text-decoration: none;
@@ -1635,6 +1646,10 @@ ul {
 
 .mask {
   opacity: 1;
+}
+
+.text-block-16, .text-block-17, .text-block-18, .text-block-19, .text-block-20, .text-block-21 {
+  font-family: Poppins, sans-serif;
 }
 
 @media screen and (min-width: 1440px) {
