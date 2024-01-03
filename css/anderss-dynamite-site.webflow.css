@@ -314,6 +314,10 @@ ul {
   border-bottom: 0 #000;
 }
 
+.text-span:hover {
+  color: #b3b3b3;
+}
+
 .link-2 {
   color: #292929;
 }
@@ -1366,12 +1370,12 @@ ul {
 .container-21 {
   max-width: none;
   text-align: center;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding-left: 721px;
   padding-right: 212px;
-  display: block;
+  display: flex;
 }
 
 .heading-12 {
@@ -1520,7 +1524,7 @@ ul {
   margin-bottom: 24px;
   font-family: Poppins, sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 25px;
 }
 
@@ -2942,6 +2946,14 @@ ul {
   line-height: 30px;
 }
 
+.link-6:hover {
+  color: #8b8b8b;
+}
+
+.link-6:active, .link-6:visited {
+  color: #fff;
+}
+
 .cf-achievement-card-item-subtext {
   text-align: center;
   font-family: Montserrat, sans-serif;
@@ -3364,6 +3376,10 @@ ul {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .link-6:visited {
+    color: #fff;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -3701,6 +3717,10 @@ ul {
     align-items: flex-start;
     margin-bottom: 40px;
     padding-right: 193px;
+  }
+
+  .margin-bottom-24px {
+    font-weight: 500;
   }
 
   .container-27 {
@@ -4294,9 +4314,13 @@ ul {
     align-items: center;
   }
 
+  .margin-bottom-24px {
+    font-weight: 600;
+  }
+
   .heading-13 {
     margin-right: 26px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 30px;
   }
 
@@ -4695,7 +4719,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px auto 100px;
+    margin: 10px auto 0;
     padding-bottom: 0;
     font-family: Poppins, sans-serif;
     font-size: 16px;
@@ -5008,7 +5032,7 @@ ul {
     padding-left: 40px;
     padding-right: 40px;
     line-height: 30px;
-    display: block;
+    display: flex;
   }
 
   .container-23 {
@@ -5073,6 +5097,7 @@ ul {
     background-color: rgba(255, 255, 255, 0);
     padding-left: 0;
     font-size: 14px;
+    font-weight: 600;
     line-height: 20px;
   }
 
