@@ -1265,6 +1265,10 @@
   background-color: #b893e9;
 }
 
+.heading-33, .heading-34, .heading-35, .heading-36, .heading-37, .heading-38 {
+  font-size: 20px;
+}
+
 @media screen and (min-width: 1920px) {
   .shadow-two-5, .hero-heading-right-3 {
     box-shadow: none;
@@ -1287,6 +1291,10 @@
   .navigation-item {
     color: #fff;
     background-color: #272727;
+  }
+
+  .product-page-title {
+    font-size: 34px;
   }
 }
 
@@ -1740,6 +1748,8 @@
 
   .page-content.top-pad {
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .half-content {
@@ -1819,6 +1829,10 @@
   .image-3, .image-4 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .heading-33, .heading-34 {
+    font-size: 20px;
   }
 }
 
@@ -2124,6 +2138,10 @@
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-_117b348e-7eda-6bb2-10a7-76145c0292f4-5c0292e7, #w-node-_117b348e-7eda-6bb2-10a7-76145c02930e-5c0292e7 {
+    justify-self: center;
+  }
+
   #w-node-_117b348e-7eda-6bb2-10a7-76145c029376-5c0292e7 {
     grid-column-start: 1;
   }
