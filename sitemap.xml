@@ -13,4 +13,10 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
+         <url>
+        <loc>https://dyoid.se/custom-dualshock-4-med-hall-effect.html</loc>
+        <lastmod>2024-05-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
 </urlset>
