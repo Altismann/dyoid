@@ -1104,7 +1104,7 @@ figcaption {
 }
 
 .tabs {
-  margin-top: 168px;
+  margin-top: 40px;
   padding-left: 140px;
   padding-right: 140px;
 }
@@ -1509,7 +1509,7 @@ figcaption {
 
 .rich-text-block-2 {
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 20px;
   margin-top: 20px;
   padding: 40px;
   font-family: Montserrat, sans-serif;
@@ -1886,7 +1886,7 @@ figcaption {
 }
 
 .body-13 {
-  background-color: #91d1d4;
+  background-color: #1b1b1b;
 }
 
 .body-14 {
@@ -2883,50 +2883,6 @@ figcaption {
 }
 
 #w-node-_76c0fff2-9e97-3242-ee38-07150ce8c56b-0ce8c51e, #w-node-_76c0fff2-9e97-3242-ee38-07150ce8c573-0ce8c51e, #w-node-_76c0fff2-9e97-3242-ee38-07150ce8c57b-0ce8c51e {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-}
-
-#w-node-_0c66887b-53df-9786-1414-16d3e880ab3a-0f3d0ca8 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-  justify-self: auto;
-}
-
-#w-node-_0c66887b-53df-9786-1414-16d3e880ab42-0f3d0ca8, #w-node-_0c66887b-53df-9786-1414-16d3e880ab4a-0f3d0ca8, #w-node-_0c66887b-53df-9786-1414-16d3e880ab52-0f3d0ca8 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-}
-
-#w-node-_6309ac9d-2aa0-60a7-f9e2-13869df0d65e-ab6f639c {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-  justify-self: auto;
-}
-
-#w-node-_6309ac9d-2aa0-60a7-f9e2-13869df0d666-ab6f639c, #w-node-_6309ac9d-2aa0-60a7-f9e2-13869df0d66e-ab6f639c, #w-node-_6309ac9d-2aa0-60a7-f9e2-13869df0d676-ab6f639c {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-}
-
-#w-node-_2c813326-4006-2e39-81ca-bebb24435846-30abbc9a {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-  justify-self: auto;
-}
-
-#w-node-_2c813326-4006-2e39-81ca-bebb2443584e-30abbc9a, #w-node-_2c813326-4006-2e39-81ca-bebb24435856-30abbc9a, #w-node-_2c813326-4006-2e39-81ca-bebb2443585e-30abbc9a {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-}
-
-#w-node-cca4be63-a23a-673c-9ca8-7add964f1b3c-d9e132e8 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
-  justify-self: auto;
-}
-
-#w-node-cca4be63-a23a-673c-9ca8-7add964f1b44-d9e132e8, #w-node-cca4be63-a23a-673c-9ca8-7add964f1b4c-d9e132e8, #w-node-cca4be63-a23a-673c-9ca8-7add964f1b54-d9e132e8 {
   grid-area: span 1 / span 1 / span 1 / span 1;
   align-self: start;
 }
