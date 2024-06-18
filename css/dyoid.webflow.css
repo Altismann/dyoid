@@ -821,7 +821,7 @@ figcaption {
 }
 
 .margin-bottom-24px {
-  color: #fff;
+  color: #000;
   margin-bottom: 24px;
 }
 
@@ -935,8 +935,14 @@ figcaption {
   line-height: 44px;
 }
 
-.heading-3, .heading-4 {
+.heading-3 {
   color: #fff;
+  font-size: 60px;
+  line-height: 44px;
+}
+
+.heading-4 {
+  color: #131313;
   font-size: 60px;
   line-height: 44px;
 }
