@@ -1,6 +1,6 @@
 :root {
-  --conversion-flow-library--light-coral: #f152bf;
   --white: white;
+  --conversion-flow-library--light-coral: #f152bf;
   --black: black;
   --conversion-flow-library--sandy-brown: #000;
   --size: 28px;
@@ -821,7 +821,7 @@ figcaption {
 }
 
 .margin-bottom-24px {
-  color: #2c2c2c;
+  color: #fff;
   margin-bottom: 24px;
 }
 
@@ -1775,7 +1775,7 @@ figcaption {
 .hero-heading-right-6 {
   color: #1a1f1e;
   background-color: #b6ff7e;
-  border-bottom: 1px solid #e4ebf3;
+  border-bottom: 0 #e4ebf3;
   padding: 220px 30px;
   position: relative;
 }
@@ -1909,7 +1909,7 @@ figcaption {
   }
 
   .paragraph-tiny {
-    color: #b3b3b3;
+    color: #111;
   }
 
   .heading-jumbo {
@@ -1930,6 +1930,10 @@ figcaption {
 
   .intro-header.cc-subpage {
     padding-bottom: 10px;
+  }
+
+  .margin-bottom-24px {
+    color: var(--white);
   }
 
   .heading-4 {
@@ -1979,7 +1983,15 @@ figcaption {
     width: 700px;
   }
 
-  .heading-28, .heading-29 {
+  .heading-28 {
+    margin-bottom: 20px;
+  }
+
+  .hero-heading-right-6 {
+    border-bottom-style: none;
+  }
+
+  .heading-29 {
     margin-bottom: 20px;
   }
 
