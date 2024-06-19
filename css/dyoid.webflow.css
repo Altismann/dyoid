@@ -193,7 +193,7 @@ figcaption {
 }
 
 .section.footer {
-  background-color: #b6b6b6;
+  background-color: #2b2a2a;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -223,7 +223,7 @@ figcaption {
 }
 
 .paragraph-tiny {
-  color: #000;
+  color: #f8f8f8;
   font-size: 14px;
   font-weight: 800;
   line-height: 20px;
@@ -787,7 +787,7 @@ figcaption {
 }
 
 .hero-heading-left.c1 {
-  background-color: #c5c5c5;
+  background-color: #d8d8d8;
   flex-flow: row;
   justify-content: center;
   align-items: center;
@@ -850,7 +850,11 @@ figcaption {
   filter: brightness(84%) contrast(118%);
 }
 
-.shadow-two._2, .shadow-two._3 {
+.shadow-two._2 {
+  filter: saturate(95%) brightness(80%);
+}
+
+.shadow-two._3 {
   filter: none;
 }
 
@@ -979,17 +983,24 @@ figcaption {
 }
 
 .button-primary-4._1 {
-  padding-left: 94px;
-  font-weight: 300;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid #000;
+  padding-left: 25px;
+  font-weight: 600;
 }
 
 .button-primary-4._2 {
-  background-color: #b6b6b6;
-  font-weight: 300;
+  background-color: rgba(182, 182, 182, 0);
+  border: 3px solid #000;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: 600;
 }
 
 .button-primary-4._2._3 {
-  background-color: #e7cbe0;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .efi-ft-01-container {
@@ -1610,7 +1621,7 @@ figcaption {
 }
 
 .margin-bottom-24px-5 {
-  color: #fff;
+  color: #000;
   white-space: break-spaces;
   margin-bottom: 20px;
   font-family: Montserrat, sans-serif;
@@ -1644,18 +1655,14 @@ figcaption {
 }
 
 .hero-heading-left-3 {
-  background-color: #272727;
-  background-image: linear-gradient(rgba(27, 27, 27, .77), rgba(27, 27, 27, .77)), url('../images/wallpaper-1.png');
-  background-position: 0 0, 0%;
-  background-repeat: repeat, repeat-y;
-  background-size: auto, auto;
+  background-color: #dfdfdf;
   border-bottom: 1px #e4ebf3;
   padding: 140px 30px;
   position: relative;
 }
 
 .heading-28 {
-  color: #fff;
+  color: #000;
   white-space: break-spaces;
   font-size: 60px;
   font-weight: 400;
@@ -1915,7 +1922,7 @@ figcaption {
   }
 
   .paragraph-tiny {
-    color: #111;
+    color: #dadada;
   }
 
   .heading-jumbo {
@@ -2122,7 +2129,7 @@ figcaption {
   }
 
   .shadow-two._2 {
-    margin-bottom: -220px;
+    margin-bottom: -48px;
   }
 
   .testimonial-left {
@@ -2272,7 +2279,7 @@ figcaption {
 
   .hero-heading-left-3 {
     background-color: #3f3f3f;
-    background-image: linear-gradient(rgba(0, 0, 0, .84), rgba(0, 0, 0, .84)), url('../images/wallpaper-1.png');
+    background-image: linear-gradient(rgba(199, 199, 199, .84), rgba(199, 199, 199, .84)), url('../images/wallpaper-1.png');
     background-position: 0 0, 50% 100%;
     background-size: auto, cover;
     border-bottom-style: none;
@@ -2659,7 +2666,7 @@ figcaption {
   }
 
   .shadow-two._2 {
-    margin-bottom: -114px;
+    margin-bottom: -60px;
   }
 
   .hero-heading-right {
@@ -2687,13 +2694,14 @@ figcaption {
 
   .button-primary-4._1 {
     text-align: left;
-    margin-bottom: 0;
+    margin-bottom: 3px;
     padding-left: 119px;
   }
 
   .button-primary-4._2 {
-    border: 1px #000;
-    margin-bottom: 0;
+    border: 3px solid #000;
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
 
   .tabs-menu {
@@ -2831,8 +2839,8 @@ figcaption {
   }
 
   .hero-heading-left-3 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .heading-28 {
@@ -2847,7 +2855,7 @@ figcaption {
   }
 
   .shadow-two-7-copy {
-    margin-bottom: -38px;
+    margin-bottom: -30px;
   }
 
   .container-19 {
@@ -2863,7 +2871,7 @@ figcaption {
   }
 
   .shadow-two-11 {
-    margin-bottom: -62px;
+    margin-bottom: -21px;
   }
 
   .margin-bottom-24px-8 {
