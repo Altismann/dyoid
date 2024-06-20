@@ -788,6 +788,9 @@ figcaption {
 
 .hero-heading-left.c1 {
   background-color: #d8d8d8;
+  background-image: linear-gradient(rgba(214, 214, 214, .85), rgba(214, 214, 214, .85)), url('../images/pexels-martinpechy-304664.png');
+  background-position: 0 0, 100%;
+  background-size: auto, cover;
   flex-flow: row;
   justify-content: center;
   align-items: center;
@@ -851,7 +854,7 @@ figcaption {
 }
 
 .shadow-two._2 {
-  filter: saturate(95%) brightness(80%);
+  filter: saturate(95%) brightness(110%);
 }
 
 .shadow-two._3 {
@@ -989,12 +992,20 @@ figcaption {
   font-weight: 600;
 }
 
+.button-primary-4._1:active {
+  background-color: #0a0a0a;
+}
+
 .button-primary-4._2 {
   background-color: rgba(182, 182, 182, 0);
   border: 3px solid #000;
   margin-left: 3px;
   margin-right: 3px;
   font-weight: 600;
+}
+
+.button-primary-4._2:active {
+  background-color: #181818;
 }
 
 .button-primary-4._2._3 {
@@ -1656,6 +1667,9 @@ figcaption {
 
 .hero-heading-left-3 {
   background-color: #dfdfdf;
+  background-image: linear-gradient(269deg, rgba(255, 221, 96, .72), #ffc1bc), url('../images/background-design-6tgpche84avnjqvz.png');
+  background-position: 0 0, 0 0;
+  background-size: auto, auto;
   border-bottom: 1px #e4ebf3;
   padding: 140px 30px;
   position: relative;
@@ -1996,6 +2010,12 @@ figcaption {
     width: 700px;
   }
 
+  .hero-heading-left-3 {
+    background-image: linear-gradient(269deg, rgba(255, 236, 128, .72), #ffb8b3), url('../images/background-design-6tgpche84avnjqvz.png');
+    background-position: 0 0, 0 0;
+    background-size: auto, auto;
+  }
+
   .heading-28 {
     margin-bottom: 20px;
   }
@@ -2129,12 +2149,17 @@ figcaption {
   }
 
   .shadow-two._2 {
+    filter: saturate(57%) brightness(93%);
     margin-bottom: -48px;
   }
 
   .testimonial-left {
     width: 40%;
     margin-right: 40px;
+  }
+
+  .heading-4 {
+    text-align: right;
   }
 
   .efi-ft-01 {
@@ -2279,15 +2304,14 @@ figcaption {
 
   .hero-heading-left-3 {
     background-color: #3f3f3f;
-    background-image: linear-gradient(rgba(199, 199, 199, .84), rgba(199, 199, 199, .84)), url('../images/wallpaper-1.png');
-    background-position: 0 0, 50% 100%;
-    background-size: auto, cover;
+    background-image: linear-gradient(102deg, #f5a790, #fff0ac);
     border-bottom-style: none;
     border-bottom-width: 0;
     padding-top: 100px;
   }
 
   .heading-28 {
+    text-align: right;
     overflow: visible;
   }
 
@@ -2368,6 +2392,10 @@ figcaption {
   .hero-split-8 {
     max-width: 100%;
     margin-bottom: 40px;
+  }
+
+  .heading-29 {
+    text-align: right;
   }
 }
 
@@ -2642,6 +2670,8 @@ figcaption {
 
   .hero-heading-left.c1 {
     flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -2654,6 +2684,10 @@ figcaption {
     flex-flow: wrap-reverse;
     justify-content: center;
     align-items: center;
+  }
+
+  .hero-split {
+    text-align: center;
   }
 
   .margin-bottom-24px {
@@ -2684,8 +2718,11 @@ figcaption {
   }
 
   .heading-4 {
+    text-align: right;
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
   }
 
   .container-buttons {
@@ -2839,6 +2876,7 @@ figcaption {
   }
 
   .hero-heading-left-3 {
+    background-image: linear-gradient(102deg, #ffab91, #fff0ac), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -2846,7 +2884,9 @@ figcaption {
   .heading-28 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
   }
 
   .heading-28.pro {
@@ -2882,7 +2922,9 @@ figcaption {
   .heading-29 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
   }
 
   .heading-31 {
