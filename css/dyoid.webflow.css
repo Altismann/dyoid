@@ -787,10 +787,12 @@ figcaption {
 }
 
 .hero-heading-left.c1 {
+  -webkit-text-fill-color: inherit;
   background-color: #d8d8d8;
-  background-image: linear-gradient(rgba(214, 214, 214, .85), rgba(214, 214, 214, .85)), url('../images/pexels-martinpechy-304664.png');
-  background-position: 0 0, 100%;
-  background-size: auto, cover;
+  background-image: linear-gradient(rgba(185, 185, 185, .95), rgba(185, 185, 185, .95)), url('../images/cross-icon.svg');
+  background-position: 0 0, 0 0;
+  background-size: auto, 300px;
+  background-clip: border-box;
   flex-flow: row;
   justify-content: center;
   align-items: center;
@@ -854,7 +856,7 @@ figcaption {
 }
 
 .shadow-two._2 {
-  filter: saturate(95%) brightness(110%);
+  filter: brightness(97%);
 }
 
 .shadow-two._3 {
@@ -1666,10 +1668,7 @@ figcaption {
 }
 
 .hero-heading-left-3 {
-  background-color: #dfdfdf;
-  background-image: linear-gradient(269deg, rgba(255, 221, 96, .72), #ffc1bc), url('../images/background-design-6tgpche84avnjqvz.png');
-  background-position: 0 0, 0 0;
-  background-size: auto, auto;
+  background-color: #ffea00;
   border-bottom: 1px #e4ebf3;
   padding: 140px 30px;
   position: relative;
@@ -2010,12 +2009,6 @@ figcaption {
     width: 700px;
   }
 
-  .hero-heading-left-3 {
-    background-image: linear-gradient(269deg, rgba(255, 236, 128, .72), #ffb8b3), url('../images/background-design-6tgpche84avnjqvz.png');
-    background-position: 0 0, 0 0;
-    background-size: auto, auto;
-  }
-
   .heading-28 {
     margin-bottom: 20px;
   }
@@ -2284,7 +2277,7 @@ figcaption {
   }
 
   .hero-wrapper-5 {
-    flex-direction: column;
+    flex-flow: wrap-reverse;
     justify-content: center;
     align-items: center;
     margin-bottom: -40px;
@@ -2303,8 +2296,7 @@ figcaption {
   }
 
   .hero-heading-left-3 {
-    background-color: #3f3f3f;
-    background-image: linear-gradient(102deg, #f5a790, #fff0ac);
+    background-color: #ffea00;
     border-bottom-style: none;
     border-bottom-width: 0;
     padding-top: 100px;
@@ -2617,9 +2609,9 @@ figcaption {
 
   .paragraph-bigger.cc-bigger-white-light {
     text-align: center;
-    font-size: 14px;
-    font-weight: 200;
-    line-height: 16px;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 30px;
   }
 
   .rich-text {
@@ -2633,17 +2625,18 @@ figcaption {
   }
 
   .heading-jumbo._1 {
-    text-align: right;
+    text-align: center;
     letter-spacing: 10px;
     margin-bottom: -23px;
     padding-right: 0;
+    font-weight: 900;
   }
 
   .heading-jumbo._2 {
     text-align: center;
-    letter-spacing: 20px;
     margin-top: 0;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
+    font-weight: 900;
   }
 
   .intro-header {
@@ -2661,6 +2654,11 @@ figcaption {
   .blog-detail-header-wrap, .blog-item {
     width: 100%;
     max-width: none;
+  }
+
+  .intro-text {
+    margin-top: 60px;
+    margin-bottom: 0;
   }
 
   .hero-heading-left {
@@ -2876,7 +2874,6 @@ figcaption {
   }
 
   .hero-heading-left-3 {
-    background-image: linear-gradient(102deg, #ffab91, #fff0ac), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     padding-top: 100px;
     padding-bottom: 100px;
   }
