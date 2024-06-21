@@ -449,7 +449,8 @@ figcaption {
   height: 800px;
   margin-top: -150px;
   margin-bottom: 0;
-  padding-top: 14px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   position: relative;
   overflow: visible;
@@ -789,7 +790,7 @@ figcaption {
 .hero-heading-left.c1 {
   -webkit-text-fill-color: inherit;
   background-color: #d8d8d8;
-  background-image: linear-gradient(rgba(185, 185, 185, .95), rgba(185, 185, 185, .95)), url('../images/cross-icon.svg');
+  background-image: linear-gradient(rgba(110, 110, 110, .95), rgba(110, 110, 110, .95)), url('../images/cross-icon.svg');
   background-position: 0 0, 0 0;
   background-size: auto, 300px;
   background-clip: border-box;
@@ -856,7 +857,7 @@ figcaption {
 }
 
 .shadow-two._2 {
-  filter: brightness(97%);
+  filter: brightness(88%);
 }
 
 .shadow-two._3 {
@@ -1951,7 +1952,8 @@ figcaption {
     background-attachment: scroll, fixed;
     height: 1000px;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .intro-header.cc-subpage {
@@ -2119,6 +2121,7 @@ figcaption {
 
   .hero-heading-left.c1 {
     padding-top: 140px;
+    padding-bottom: 140px;
   }
 
   .container-2 {
@@ -2640,6 +2643,8 @@ figcaption {
   }
 
   .intro-header {
+    padding-top: 140px;
+    padding-bottom: 100px;
     position: relative;
   }
 
@@ -2671,7 +2676,7 @@ figcaption {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
   }
 
   .container-2 {
@@ -2874,7 +2879,7 @@ figcaption {
   }
 
   .hero-heading-left-3 {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 100px;
   }
 
