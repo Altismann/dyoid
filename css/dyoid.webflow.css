@@ -790,9 +790,7 @@ figcaption {
 .hero-heading-left.c1 {
   -webkit-text-fill-color: inherit;
   background-color: #d8d8d8;
-  background-image: linear-gradient(rgba(110, 110, 110, .95), rgba(110, 110, 110, .95)), url('../images/cross-icon.svg');
-  background-position: 0 0, 0 0;
-  background-size: auto, 300px;
+  background-image: linear-gradient(rgba(228, 99, 101, .95), rgba(228, 99, 101, .95));
   background-clip: border-box;
   flex-flow: row;
   justify-content: center;
@@ -857,7 +855,7 @@ figcaption {
 }
 
 .shadow-two._2 {
-  filter: brightness(88%);
+  filter: brightness(91%);
 }
 
 .shadow-two._3 {
