@@ -790,7 +790,6 @@ figcaption {
 .hero-heading-left.c1 {
   -webkit-text-fill-color: inherit;
   background-color: #d8d8d8;
-  background-image: linear-gradient(rgba(228, 99, 101, .95), rgba(228, 99, 101, .95));
   background-clip: border-box;
   flex-flow: row;
   justify-content: center;
@@ -817,11 +816,13 @@ figcaption {
 }
 
 .hero-split {
+  box-sizing: border-box;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   max-width: 46%;
   display: flex;
+  overflow: visible;
 }
 
 .margin-bottom-24px {
@@ -856,6 +857,7 @@ figcaption {
 
 .shadow-two._2 {
   filter: brightness(91%);
+  object-fit: fill;
 }
 
 .shadow-two._3 {
@@ -1643,8 +1645,8 @@ figcaption {
 .hero-wrapper-5 {
   justify-content: space-between;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 140px;
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
 }
 
@@ -1669,7 +1671,7 @@ figcaption {
 .hero-heading-left-3 {
   background-color: #ffea00;
   border-bottom: 1px #e4ebf3;
-  padding: 140px 30px;
+  padding: 220px 30px;
   position: relative;
 }
 
@@ -2610,8 +2612,8 @@ figcaption {
 
   .paragraph-bigger.cc-bigger-white-light {
     text-align: center;
-    font-size: 30px;
-    font-weight: 100;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 30px;
   }
 
@@ -2630,7 +2632,7 @@ figcaption {
     letter-spacing: 10px;
     margin-bottom: -23px;
     padding-right: 0;
-    font-weight: 900;
+    font-weight: 400;
   }
 
   .heading-jumbo._2 {
