@@ -1,7 +1,7 @@
 :root {
-  --black: black;
-  --conversion-flow-library--light-coral: #f152bf;
   --white: white;
+  --conversion-flow-library--light-coral: #f152bf;
+  --black: black;
   --conversion-flow-library--sandy-brown: #000;
   --size: 28px;
   --conversion-flow-library--size: var(--size);
@@ -782,8 +782,8 @@ figcaption {
   border-bottom-width: 6px;
   justify-content: center;
   align-items: center;
-  padding-top: 115px;
-  padding-bottom: 100px;
+  padding-top: 220px;
+  padding-bottom: 220px;
   display: flex;
 }
 
@@ -826,8 +826,12 @@ figcaption {
 }
 
 .margin-bottom-24px {
-  color: #000;
+  color: #fff;
   margin-bottom: 24px;
+}
+
+.margin-bottom-24px.home {
+  color: #000;
 }
 
 .button-primary {
@@ -874,8 +878,8 @@ figcaption {
 .hero-heading-right.w2 {
   justify-content: center;
   align-items: center;
-  padding-top: 85px;
-  padding-bottom: 100px;
+  padding-top: 220px;
+  padding-bottom: 220px;
   display: flex;
 }
 
@@ -891,7 +895,7 @@ figcaption {
 
 .testimonial-image-left {
   border-bottom: 1px #e4ebf3;
-  padding: 80px 30px 140px;
+  padding: 80px 30px 100px;
   position: relative;
 }
 
@@ -1961,7 +1965,7 @@ figcaption {
   }
 
   .margin-bottom-24px {
-    color: var(--black);
+    color: var(--white);
   }
 
   .heading-4 {
@@ -2119,6 +2123,10 @@ figcaption {
     width: auto;
   }
 
+  .hero-heading-left.w1 {
+    padding-top: 100px;
+  }
+
   .hero-heading-left.c1 {
     padding-top: 140px;
     padding-bottom: 140px;
@@ -2147,6 +2155,10 @@ figcaption {
   .shadow-two._2 {
     filter: saturate(57%) brightness(93%);
     margin-bottom: -48px;
+  }
+
+  .hero-heading-right.w2 {
+    padding-top: 100px;
   }
 
   .testimonial-left {
@@ -2671,6 +2683,11 @@ figcaption {
     display: block;
   }
 
+  .hero-heading-left.w1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .hero-heading-left.c1 {
     flex-flow: column-reverse;
     justify-content: center;
@@ -2706,9 +2723,13 @@ figcaption {
     margin-bottom: -60px;
   }
 
-  .hero-heading-right {
+  .hero-heading-right, .hero-heading-right.w2 {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .testimonial-image-left {
+    padding-top: 20px;
   }
 
   .heading-small {
