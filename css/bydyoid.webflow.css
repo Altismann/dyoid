@@ -948,9 +948,10 @@
 .efi-ft-01-feature-wrapper {
   text-align: center;
   flex-direction: column;
+  order: 1;
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: none;
 }
 
 .image-2 {
@@ -971,6 +972,8 @@
 .efi-ft-01-grid {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
 }
 
 .efi-ft-01-container {
@@ -2373,6 +2376,7 @@
   .product-details-wrap {
     width: 100%;
     max-width: none;
+    margin-bottom: 0;
   }
 
   .section {
@@ -2413,7 +2417,7 @@
   }
 
   .page-content.top-pad {
-    padding-top: 20px;
+    padding-top: 0;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -2575,11 +2579,6 @@
   grid-area: span 1 / span 1 / span 1 / span 1;
   align-self: start;
   justify-self: auto;
-}
-
-#w-node-_501682f9-59e6-923d-9c1c-48b35e6f144d-079174bc, #w-node-_501682f9-59e6-923d-9c1c-48b35e6f1455-079174bc, #w-node-_501682f9-59e6-923d-9c1c-48b35e6f145d-079174bc {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: start;
 }
 
 @media screen and (max-width: 991px) {
