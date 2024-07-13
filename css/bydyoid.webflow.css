@@ -135,6 +135,12 @@
   margin-bottom: 0;
 }
 
+.fn-footer-image._1 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+
 .bold-text-10 {
   font-weight: 400;
 }
@@ -151,13 +157,14 @@
 }
 
 .fn-footer-legal-link-2 {
+  opacity: .64;
   color: #fff;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   font-family: Montserrat, sans-serif;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   transition: color .25s;
 }
@@ -270,9 +277,14 @@
 }
 
 .fn-footer-copyright {
+  opacity: .63;
   color: #fff;
-  font-size: 16px;
-  font-weight: 400;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .fn-brand-box {
@@ -301,9 +313,18 @@
 }
 
 .fn-legal-links-wrapper {
-  grid-column-gap: 22px;
-  grid-row-gap: 22px;
-  flex-wrap: wrap;
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
+  color: #fff;
+  background-color: #202020;
+  flex-flow: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Montserrat, sans-serif;
+  line-height: 14px;
   display: flex;
 }
 
@@ -406,14 +427,15 @@
 .fn-footer-advence-2 {
   color: #ecf0ef;
   background-color: #272727;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
   font-family: Open Sans, sans-serif;
   display: flex;
+  overflow: hidden;
 }
 
 .fn-social-link-icon {
@@ -618,10 +640,10 @@
 .flex-block {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 0;
   font-size: 12px;
 }
 
@@ -632,7 +654,9 @@
   outline: 3px #000;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px 10px;
   font-family: Montserrat, sans-serif;
   font-size: 11px;
   font-weight: 600;
@@ -1120,11 +1144,13 @@
 }
 
 .section-13 {
+  z-index: 3;
   background-color: #272727;
   justify-content: center;
   align-items: center;
   padding: 10px 60px;
   display: flex;
+  position: relative;
 }
 
 .cf-menu-line-2._2 {
@@ -1396,9 +1422,10 @@
   color: #000;
   letter-spacing: 21px;
   text-transform: lowercase;
-  margin-top: -51px;
+  margin-top: 0;
+  margin-bottom: 20px;
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 12px;
 }
 
@@ -1452,25 +1479,76 @@
 .columns-4 {
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 220px;
+  padding-bottom: 220px;
   display: flex;
 }
 
 .image-5 {
+  z-index: 2;
+  max-width: none;
   margin-top: 140px;
+  position: relative;
   overflow: hidden;
 }
 
 .image-6 {
+  z-index: 1;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  object-fit: fill;
+  flex: 0 auto;
+  order: -1;
+  align-self: center;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: absolute;
+  top: -13%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
   overflow: hidden;
   transform: rotate(90deg);
 }
 
 .linkf {
   color: #292929;
-  background-color: #1cffd9;
+  background-color: rgba(0, 0, 0, 0);
   text-decoration: none;
+}
+
+.container-37 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+}
+
+.container-38 {
+  flex-flow: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 1900px;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Montserrat, sans-serif;
+  display: block;
+}
+
+.logo {
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  font-family: Changa One, Impact, sans-serif;
+  font-weight: 400;
+  line-height: 38px;
 }
 
 @media screen and (min-width: 1920px) {
@@ -1544,6 +1622,16 @@
 
   .cf-close-button-2:hover {
     color: #222325;
+  }
+
+  .efi-h2 {
+    margin-top: 0;
+  }
+
+  .image-6 {
+    margin-top: 46px;
+    position: static;
+    top: -3%;
   }
 }
 
@@ -1696,7 +1784,7 @@
   }
 
   .flex-block {
-    margin-top: 0;
+    margin-top: 49px;
   }
 
   .heading-40 {
@@ -1843,7 +1931,7 @@
   }
 
   .efi-paragraph-2 {
-    margin-bottom: 54px;
+    margin-bottom: 127px;
     line-height: 28px;
   }
 
@@ -1858,7 +1946,7 @@
   }
 
   .efi-h2.ch {
-    letter-spacing: 10px;
+    letter-spacing: 20px;
     margin-top: 20px;
   }
 
@@ -1869,10 +1957,15 @@
 
   .column-6 {
     align-self: center;
+    margin-bottom: 401px;
   }
 
   .columns-4 {
     flex-flow: column;
+  }
+
+  .image-5 {
+    margin-top: 165px;
   }
 }
 
@@ -1974,6 +2067,10 @@
   .section-15.cu {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .flex-block {
+    margin-top: 45px;
   }
 
   .product-details-wrap {
@@ -2106,6 +2203,7 @@
   }
 
   .efi-h2.ch {
+    letter-spacing: 20px;
     margin-top: 20px;
   }
 
@@ -2117,6 +2215,11 @@
     align-items: flex-start;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .image-6 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -2169,6 +2272,10 @@
     max-width: none;
   }
 
+  .fn-footer-image._1 {
+    flex-flow: column;
+  }
+
   .heading-37 {
     text-align: center;
     width: auto;
@@ -2193,6 +2300,7 @@
   }
 
   .fn-footer-wrapper-2 {
+    grid-auto-flow: row;
     align-items: center;
     justify-items: center;
     width: auto;
@@ -2232,12 +2340,24 @@
     margin-top: 0;
   }
 
+  .fn-container-grid-2 {
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+  }
+
   .contact-form-grid {
     width: 100%;
   }
 
   .flex-block {
     flex-flow: column-reverse;
+    margin-top: 27px;
   }
 
   .heading-40 {
@@ -2382,6 +2502,8 @@
 
   .efi-paragraph-2 {
     margin-bottom: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 16px;
   }
 
@@ -2390,8 +2512,10 @@
   }
 
   .efi-h2 {
-    margin-top: -19px;
-    margin-bottom: 48px;
+    letter-spacing: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
   }
 
   .efi-h2.ch {
@@ -2406,20 +2530,20 @@
   .column-6 {
     justify-content: center;
     align-items: center;
+    margin-bottom: 339px;
   }
-}
 
-#w-node-_9d615aec-fc29-0c14-a0c2-bbd450820931-50820930 {
-  grid-area: 2 / 2 / 3 / 7;
-}
+  .image-5 {
+    max-width: none;
+    margin-bottom: -126px;
+  }
 
-#w-node-_9d615aec-fc29-0c14-a0c2-bbd45082093f-50820930 {
-  grid-area: span 1 / span 12 / span 1 / span 12;
-  justify-self: center;
-}
-
-#w-node-_9d615aec-fc29-0c14-a0c2-bbd450820940-50820930 {
-  grid-area: 2 / 2 / 3 / 8;
+  .image-6 {
+    position: static;
+    top: -7%;
+    left: -36%;
+    right: -23%;
+  }
 }
 
 #w-node-_9d615aec-fc29-0c14-a0c2-bbd45082094b-50820930 {
@@ -2459,14 +2583,6 @@
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-_9d615aec-fc29-0c14-a0c2-bbd450820931-50820930 {
-    grid-area: 2 / 2 / 3 / 6;
-  }
-
-  #w-node-_9d615aec-fc29-0c14-a0c2-bbd45082093f-50820930 {
-    grid-column: span 8 / span 8;
-  }
-
   #w-node-_9d615aec-fc29-0c14-a0c2-bbd45082094b-50820930 {
     grid-area: 4 / 1 / 5 / 9;
     justify-self: center;
@@ -2482,16 +2598,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-_9d615aec-fc29-0c14-a0c2-bbd450820931-50820930 {
-    grid-area: span 1 / span 4 / span 1 / span 4;
-    justify-self: center;
-  }
-
-  #w-node-_9d615aec-fc29-0c14-a0c2-bbd45082093f-50820930 {
-    grid-column: span 4 / span 4;
-  }
-
-  #w-node-_9d615aec-fc29-0c14-a0c2-bbd450820940-50820930, #w-node-_9d615aec-fc29-0c14-a0c2-bbd45082094b-50820930 {
+  #w-node-_9d615aec-fc29-0c14-a0c2-bbd45082094b-50820930 {
     grid-area: span 1 / span 4 / span 1 / span 4;
   }
 
@@ -2502,10 +2609,6 @@
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_9d615aec-fc29-0c14-a0c2-bbd450820940-50820930 {
-    grid-area: span 1 / span 2 / span 1 / span 2;
-  }
-
   #w-node-_9d615aec-fc29-0c14-a0c2-bbd45082094b-50820930 {
     grid-area: span 1 / span 1 / span 1 / span 1;
     justify-self: center;
