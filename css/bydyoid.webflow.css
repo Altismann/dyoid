@@ -387,6 +387,7 @@
 .flex-block {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
@@ -398,13 +399,15 @@
   outline-offset: 0px;
   text-transform: uppercase;
   border: 3px solid #000;
+  border-radius: 20px;
   outline: 3px #000;
   justify-content: center;
   align-items: center;
+  width: 300px;
   margin-top: 0;
   margin-bottom: 0;
   padding: 20px 10px;
-  font-family: Montserrat, sans-serif;
+  font-family: Exo, sans-serif;
   font-size: 11px;
   font-weight: 600;
   line-height: 15px;
@@ -947,13 +950,15 @@
 }
 
 .efi-paragraph-2 {
-  color: #fff;
+  color: #181818;
+  text-align: right;
   letter-spacing: 10px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+  text-transform: uppercase;
+  padding-top: 0;
   font-family: Exo, sans-serif;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 900;
-  line-height: 30px;
+  line-height: 18px;
 }
 
 .efi-h2 {
@@ -977,7 +982,7 @@
 .column-6 {
   flex-flow: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 140px;
   display: flex;
 }
@@ -1566,7 +1571,7 @@
 
   .column-6 {
     align-self: center;
-    margin-bottom: 401px;
+    margin-bottom: 508px;
   }
 
   .columns-4 {
@@ -1808,7 +1813,8 @@
   }
 
   .column-6 {
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1886,6 +1892,7 @@
   .flex-block {
     flex-flow: column-reverse;
     margin-top: 27px;
+    margin-bottom: 93px;
   }
 
   .heading-40 {
