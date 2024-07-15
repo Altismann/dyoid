@@ -1142,6 +1142,7 @@
   justify-content: flex-start;
   align-items: center;
   padding-bottom: 0;
+  padding-right: 66px;
   display: flex;
 }
 
@@ -1289,6 +1290,10 @@
     border-top-width: 0;
   }
 
+  .product-details-wrap {
+    padding-right: 0;
+  }
+
   .section.cc-product-detail {
     background-color: #b6ff7e;
     padding-top: 140px;
@@ -1332,6 +1337,10 @@
     margin-top: 46px;
     position: static;
     top: -3%;
+  }
+
+  .column-7 {
+    padding-right: 135px;
   }
 }
 
@@ -1592,6 +1601,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    padding-right: 0;
   }
 
   .column-8 {
